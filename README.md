@@ -1,4 +1,4 @@
-[![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?project=mc1arke_sonarqube-community-branch-plugin&metric=alert_status)](https://sonarcloud.io/dashboard?id=mc1arke_sonarqube-community-branch-plugin)
+[![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?project=mc1arke_sonarqube-community-branch-plugin&metric=alert_status)](https://sonarcloud.io/dashboard?id=mc1arke_sonarqube-community-branch-plugin) [![Build Status](https://travis-ci.org/mc1arke/sonarqube-community-branch-plugin.svg?branch=master)](https://travis-ci.org/mc1arke/sonarqube-community-branch-plugin)
 
 # Sonarqube Community Branch Plugin
 A plugin for SonarQube to allow branch analysis in the Community version.
@@ -13,11 +13,11 @@ Use the following table to find the correct plugin version for each SonarQube ve
 
 SonarQube Version | Plugin Version
 ------------------|---------------
-7.8+              | 1.1.1
+7.8+              | 1.2.0
 7.4 - 7.7         | 1.0.2
 
 # Installation
-Either build the project or [download a compatible release version of the plugin JAR](https://github.com/mc1arke/sonarqube-community-branch-plugin/releases). Copy the plugin JAR file to the `extensions/plugins/` directory of your SonarQube instance and restart SonarQube.
+Either build the project or [download a compatible release version of the plugin JAR](https://github.com/mc1arke/sonarqube-community-branch-plugin/releases). Copy the plugin JAR file to the `extensions/plugins/` **and** the `lib/common/` directories of your SonarQube instance and restart SonarQube.
 
 # Features
 The plugin is intended to support the [features and parameters specified in the SonarQube documentation](https://docs.sonarqube.org/latest/branches/overview/), with the following caveats
